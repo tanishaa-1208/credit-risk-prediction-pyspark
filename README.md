@@ -29,10 +29,8 @@ PySpark (Spark ML) · XGBoost · LightGBM · CatBoost · scikit-learn · pandas 
 # Repository Structure
 
 - credit_risk_prediction_pyspark.ipynb — Main notebook: full pipeline, training, evaluation
-- data/
-  a. credit_risk_dataset.csv
-  b. credit_card_clients_dataset.csv
-- images/ — Output plots (ROC curves, confusion matrices, results tables)
+- Dataset 1: credit_risk_dataset.csv
+- Dataset 2: credit_card_clients_dataset.csv
 - README.md
 
 # How to Run
