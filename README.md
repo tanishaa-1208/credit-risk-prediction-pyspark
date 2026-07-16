@@ -46,26 +46,39 @@ Run all cells sequentially — the notebook builds separate pipelines for each d
 **Dataset 1 — Credit Card Clients (Performance Metrics)**
 
 a. LightGBM — Accuracy: 0.8155 | Precision: 0.6545 | Recall: 0.3853 | F1-Score: 0.4850 | ROC-AUC: 0.7806 (best)
+
 b. AdaBoost — Accuracy: 0.8141 | Precision: 0.6681 | Recall: 0.3497 | F1-Score: 0.4591 | ROC-AUC: 0.7794
+
 c. Gradient Boosted Trees (GBT) — Accuracy: 0.8182 | Precision: 0.6597 | Recall: 0.4001 | F1-Score: 0.8008 | ROC-AUC: 0.7780
+
 d. CatBoost — Accuracy: 0.8176 | Precision: 0.6617 | Recall: 0.3920 | F1-Score: 0.4923 | ROC-AUC: 0.7739
+
 e. Random Forest — Accuracy: 0.8198 | Precision: 0.6938 | Recall: 0.3601 | F1-Score: 0.7972 | ROC-AUC: 0.7686
+
 f. XGBoost — Accuracy: 0.8074 | Precision: 0.6157 | Recall: 0.3890 | F1-Score: 0.4768 | ROC-AUC: 0.7682
 
+
 **Best model (Dataset 1):** LightGBM, selected for highest ROC-AUC. Its confusion matrix, ROC curve, and precision-recall curve confirmed strong separation between defaulters and non-defaulters.
+
 
 
 **Dataset 2 — Loan Approval/Default (Performance Metrics)**
 
 a. LightGBM — Accuracy: 0.9379 | Precision: 0.9737 | Recall: 0.7269 | F1-Score: 0.8324 | ROC-AUC: 0.9475 (best)
+
 b. CatBoost — Accuracy: 0.9371 | Precision: 0.9745 | Recall: 0.7226 | F1-Score: 0.8299 | ROC-AUC: 0.9423
+
 c. GBT — Accuracy: 0.9302 | Recall: 0.7066 | F1-Score: 0.9262 | ROC-AUC: 0.9279
+
 d. XGBoost — Accuracy: 0.9365 | Precision: 0.9488 | Recall: 0.7407 | F1-Score: 0.8320
+
 e. AdaBoost — Accuracy: 0.8881 | Precision: 0.7919 | F1-Score: 0.7087 | ROC-AUC: 0.9015
+
 f. Random Forest — Accuracy: 0.9097 | Precision: 0.9703 | Recall: 0.5926 | F1-Score: 0.9010
 
 
 **Best model (Dataset 2):** LightGBM, with the strongest balance of Accuracy (0.938), Precision (0.974), and ROC-AUC (0.948) — indicating excellent ability to identify defaulters while minimising false positives.
+
 
 
 # Key Findings
