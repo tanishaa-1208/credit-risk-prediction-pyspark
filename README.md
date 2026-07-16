@@ -36,10 +36,13 @@ PySpark (Spark ML) · XGBoost · LightGBM · CatBoost · scikit-learn · pandas 
 └── README.md
 
 # How to Run
-Clone the repo and open the notebook in Google Colab or Jupyter
-Run the setup cell to install Spark, PySpark, and boosting libraries (xgboost, lightgbm, catboost)
-Place the two dataset CSVs in the working directory (or update the file paths in the data-loading cells)
-Run all cells sequentially — the notebook builds separate pipelines for each dataset and outputs a comparison table of all models ranked by ROC-AUC
+- Clone the repo and open the notebook in Google Colab or Jupyter
+
+- Run the setup cell to install Spark, PySpark, and boosting libraries (xgboost, lightgbm, catboost)
+
+- Place the two dataset CSVs in the working directory (or update the file paths in the data-loading cells)
+
+- Run all cells sequentially — the notebook builds separate pipelines for each dataset and outputs a comparison table of all models ranked by ROC-AUC
 
 
 # Results
@@ -59,6 +62,9 @@ f. XGBoost — Accuracy: 0.8074 | Precision: 0.6157 | Recall: 0.3890 | F1-Score:
 
 
 **Best model (Dataset 1):** LightGBM, selected for highest ROC-AUC. Its confusion matrix, ROC curve, and precision-recall curve confirmed strong separation between defaulters and non-defaulters.
+
+
+
 
 
 
